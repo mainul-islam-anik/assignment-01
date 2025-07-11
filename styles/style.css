@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(214, 221, 237, 0.4);
+    background-color: rgba(214, 221, 237, 0.3);
     margin: 0;
     padding: 0;
 }
@@ -44,6 +44,7 @@ nav{
     justify-content: space-between;
     padding: 0px 150px;
     align-items: center;
+    padding-top: 40px;
 }
 
 .nav-title{
@@ -77,7 +78,7 @@ main{
 .action{
     display: flex;
     justify-content: space-between;
-    margin-top: 38px;
+    margin-top: 80px;
 }
 .left-action{
     width: 500px;
@@ -117,7 +118,8 @@ main{
 .user-data .user-sub-title{
     font-size: 80px;
     font-weight: 700;
-    margin-bottom: 0;
+    margin: 0;
+    padding-top: 30px;
 }
 
 .user-data .user-description{
@@ -128,6 +130,10 @@ main{
 
 
 /* review style */
+
+.user-review{
+    margin-top: 130px;
+}
 .review-title{
     text-align: center;
     font-weight: 700;
