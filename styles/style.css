@@ -20,7 +20,15 @@ body{
     border-radius: 10px;
     color: #FFFFFF;
     font-weight: 700;
+    cursor: pointer;
 }
+
+.primary-btn:hover{
+
+    background-color: rgba(168, 136, 56, 0.925);
+    
+}
+
 /* header style */
 
 .header{
@@ -115,6 +123,7 @@ main{
 .user-data .user-description{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
 
 
@@ -160,6 +169,31 @@ main{
 .reviewer-detail span{
     color: rgba(179, 179, 179, 1);
 }
+
+
+/* focus style */
+.focus{
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 137px;
+    border-radius: 14px;
+    padding: 50px 150px;
+}
+.focus-title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+    margin: 0;
+}
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-img img{
+    border-radius: 48px;
+    margin: 20px;
+}
+
 
 /* touch style */
 
