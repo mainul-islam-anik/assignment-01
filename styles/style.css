@@ -4,7 +4,9 @@
   font-style: normal;
 }
 
-
+body{
+    background-color: rgba(214, 221, 237, 1);
+}
 /* same style */
 .primary-color{
     color: rgba(78, 71, 255, 1);
@@ -111,4 +113,54 @@ main{
 .user-data .user-description{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* touch style */
+
+.touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 92px;
+    padding: 71px 0px;
+}
+
+.touch-title{
+    font-weight: 700;
+    font-size: 97px;
+    color: rgba(0, 0, 0, 1); 
+}
+form label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.touch-form{
+    width: 500px;
+}
+.touch input[type="email"]{
+    display: block;
+    padding: 20px 225px 20px 32px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+}
+.touch input[type="text"]{
+    display: block;
+    padding: 20px 225px 20px 32px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+}
+.touch textarea{
+    display: block;
+    padding: 20px 118px 85px 32px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+}
+.touch button{
+    width: 100%;
 }
